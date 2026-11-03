@@ -63,7 +63,7 @@ I also built a script that compares the end of one shot to the start of the next
 
 ## Companion scripts
 
-All scripts: [{{ site.github.repository_url }}/tree/main/scripts]({{ site.github.repository_url }}/tree/main/scripts).
+All scripts: [{{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts]({{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts).
 
 Everything below is in the `scripts/` folder: `assemble.py` (hard cuts and crossfades from a JSON list, plus voice and music mix), `contact_sheet.sh`, `find_pauses.py`, `jump_check.py`, `loudnorm_two_pass.sh`, `sync_check.py`, `last_frame.sh`. They are small starting points, not a framework; adapt them to your own folder layout.
 

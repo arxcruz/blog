@@ -80,7 +80,7 @@ Also: even a good model's mouth lags the voice slightly. I measured about 170 ms
 
 ## Companion scripts
 
-All scripts: [{{ site.github.repository_url }}/tree/main/scripts]({{ site.github.repository_url }}/tree/main/scripts).
+All scripts: [{{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts]({{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts).
 
 For this part: `sync_check.py` (mouth motion vs. audio loudness) and `last_frame.sh` (grab the real last frame for chaining). Note that `sync_check.py` needs you to give it the mouth region as a pixel box.
 

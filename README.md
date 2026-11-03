@@ -1,5 +1,7 @@
-# Making AI Videos Locally on a Mac
+# Blog
 
-Blog series + companion scripts. See `scripts/README.md` for the tools.
+Posts and companion code for my Medium articles. One folder per series.
 
-Series: Part 1 (`part-1.md`), Part 2 (`part-2.md`), Part 3 (`part-3.md`).
+- `local-ai-video-mac/`: Making AI Videos Locally on a Mac (3 parts + `scripts/`)
+
+To add a series: create a folder with an `index.md` and one `.md` per post (with `layout: default` front matter), then link it from the root `index.md`.

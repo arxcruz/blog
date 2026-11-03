@@ -102,7 +102,7 @@ Before you move on to Part 2, check every clip for the same short list:
 3. Is the face stable, or does it melt in the last second?
 4. Does the background behave?
 
-A tiny script that grabs the first, middle and last frame of each clip as PNGs and puts them in a contact sheet saves hours. Looking at three frames is faster than rewatching a video, and you will catch most problems. I put a generic version in the companion scripts (`contact_sheet.sh`, in the [companion scripts]({{ site.github.repository_url }}/tree/main/scripts)).
+A tiny script that grabs the first, middle and last frame of each clip as PNGs and puts them in a contact sheet saves hours. Looking at three frames is faster than rewatching a video, and you will catch most problems. I put a generic version in the companion scripts (`contact_sheet.sh`, in the [companion scripts]({{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts)).
 
 ## Run long jobs in the background
 
@@ -118,7 +118,7 @@ tail -f logs/shot01.log
 
 ## Companion scripts
 
-All scripts: [{{ site.github.repository_url }}/tree/main/scripts]({{ site.github.repository_url }}/tree/main/scripts).
+All scripts: [{{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts]({{ site.github.repository_url }}/tree/main/local-ai-video-mac/scripts).
 
 The small helper scripts from this series are generic, tested on synthetic clips, and collected in a `scripts/` folder with their own README. For this part: `contact_sheet.sh` and `last_frame.sh`.
 
