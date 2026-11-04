@@ -1,7 +1,5 @@
-# Blog
+# Blog code
 
-Posts and companion code for my Medium articles. One folder per series.
+Companion code for my Medium articles. One folder per series, scripts only.
 
-- `local-ai-video-mac/`: Making AI Videos Locally on a Mac (3 parts + `scripts/`)
-
-To add a series: create a folder with an `index.md` and one `.md` per post (with `layout: default` front matter), then link it from the root `index.md`.
+- [`local-ai-video-mac/scripts/`](local-ai-video-mac/scripts/): helper scripts for producing AI videos locally on Apple Silicon (contact sheets, pause and jump detection, rough lip-sync check, loudness normalisation, simple assembly). See the README inside for usage.
